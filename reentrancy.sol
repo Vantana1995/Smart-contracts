@@ -16,7 +16,7 @@ contract ReentrancyDefender {
     modifier lock() {
         assembly {
             // Check if already locked (tload returns non-zero if locked)
-            if tload(0x00) {
+            if iszero(eq(tload(0x00), 0)) {
                 revert(0x00, 0x00)
             }
             // Set lock
