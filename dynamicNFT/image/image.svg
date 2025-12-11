@@ -1,1 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300"><style>.circle {transition: all 1s ease-in-out;stroke-dasharray: 73.26 73.26;stroke-dashoffset: 314;}.circle:hover {stroke-dashoffset: 0;}</style><circle r="100" fill="#cf1221" cx="50%" cy="50%"/>  <circle class="circle" r="70" fill="#cf1221" cx="50%" cy="50%" stroke="gold" stroke-width="30"/><circle r="20" cx="50%" cy="50%" fill="gold" />  </svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+    <style>
+        .circle {transition: all 1s ease-in-out;stroke-dasharray: 73.26 73.26;stroke-dashoffset: 314;}
+        .circle:hover {stroke-dashoffset: 0;}
+    </style>
+    <circle r="100" fill="#cf1221" cx="50%" cy="50%"/>  
+    <circle class="circle" r="70" fill="none" cx="50%" cy="50%" stroke="gold" stroke-width="30"/>
+    <circle r="20" cx="50%" cy="50%" fill="gold" />  
+</svg>
